@@ -30,7 +30,7 @@ end
 
 module.public = {
 	timedate_now = function()
-		return string.format("<%s>", os.date("%Y-%m-%dT%H:%M:%S"))
+		return string.format("<%s>", os.date("%Y-%m-%d %a %H:%M"))
 	end
 }
 
